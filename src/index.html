@@ -60,9 +60,6 @@
 
 	</div>
 	
-	<div class="fork-github">
-		<a href="https://github.com/givebest/GB-canvas-turntable">Fork me on Github</a>
-	</div>
 
 	
     <script src="js/GB-canvas-turntable.js"></script>
@@ -76,7 +73,7 @@
                 },
                 getPrize: function(callback) {
                     // 获取中奖信息
-                    var num = Math.random() * 6 >>> 0,   //奖品ID
+                    var num = Math.random() * 22 >>> 0,   //奖品ID
                         chances = num;  // 可抽奖次数
                         callback && callback([num, chances]);   
                 },
